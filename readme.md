@@ -1,4 +1,5 @@
-Projeto Pessoa, Médico e Paciente
+Projeto Projeto Médicos Trabsfriendly
+
 
 Este projeto consiste em três classes JavaScript: Pessoa, Médico e Paciente. Essas classes são projetadas para modelar indivíduos em um contexto médico, permitindo criar e gerenciar médicos e pacientes.
 
