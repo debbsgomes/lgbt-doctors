@@ -21,4 +21,4 @@ console.log(patient1.isTransgenderPatient());
 console.log(patient2.isTransgenderPatient());
 
 const doctor1 = new Doctor("Dr. João", "Dantas", "111111111", "Rua Paulo Gustavo", "21998707035", "12345/RJ", "Cardiologist");
-console.log(doctor1);
+console.log(doctor1);;
