@@ -80,12 +80,12 @@ Para usar este projeto, você pode criar instâncias das classes Médico e Pacie
 
 Exemplo de uso:
 
-const joãoSilva = new Médico('Dr. João', 'Silva', '123456789', 'Rua Principal, 123', '555-1234', '12345', 'Cardiologia');
+const joãoSilva = new Doctor('Dr. João', 'Silva', '123456789', 'Rua Principal, 123', '555-1234', '12345', 'Cardiologia');
 
-const mariaSantos = new Paciente('Maria', 'Santos', '987654321', 'Rua da Praia, 456', '555-5678', 'Problema cardíaco', false);
+const mariaSantos = new Patient('Maria', 'Santos', '987654321', 'Rua da Praia, 456', '555-5678', 'Problema cardíaco', false);
 
 joãoSilva.prescreverMedicamento(mariaSantos, 'Aspirina');
-mariaSantos.escolherEspecialidadeMédico('Cardiologia');
+mariaSantos.escolherEspecialidadeMédico('Cardiology');
 
 Testes
 
